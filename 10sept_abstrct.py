@@ -86,54 +86,6 @@ b.start()
 b.stop()
 """
 
-# for loop  : 
-"""
-1.for 
-2.while  
-3.while True
-"""
-"""
-syntax : 
-
-for  variable  in range(start , end ,step):
-    print()
-"""
-# 1-100 :
-"""
-for i in range(1,101):
-    print(i,end= " ")
-
-"""
-# 100-1 : 
-"""
-for i in range(100,1,-1):
-    print(i,end= " ")
-"""
-
-# start , stop  : 
-
-"""start =int(input("enter start : "))
-stop =int(input("enter stop : "))
-
-for i in range(start,stop+1,2):
-    print(i,end=" ")
-"""
-
-# prime , perfect , amg , twin  pelindorme , reverse , : 
-
-# prime  : 2 factors : 
-# perfect :  6 factors :1,2,3,6 ==>sum .= 1+2+3 =6  28 
-
-"""n=int(input("enter the  number  :" ))
-count =0 
-
-for i in range(1,n+1):
-    if n % i ==0 :
-        count +=1 
-if count ==2 :
-    print(n,"is prime")
-"""
-
 # abstraction  : 
 
 from abc import  ABC , abstractmethod

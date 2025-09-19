@@ -15,7 +15,8 @@
 """
 
 # w + : 
-"""with  open("arpit.txt","w+") as file : 
+"""
+with  open("arpit.txt","w+") as file : 
     file.write("my name is jainam.\n")
     file.write("dream is study in AU.\n")
     file.write("live in ahmedabad.\n")
@@ -47,3 +48,43 @@ with open("vyom1.txt","w+") as file :  # exiting  file
 
 # csv file read : 
 
+"""
+bank  == > deposit  withdraw check_balance  ==> oop 
+
+25000  == >deposit  ==>10000 ==> 35000 ==> withdraw ==>15000 == > 20000  
+
+check_balance .txt ==> final balance ==> 20000 
+
+"""
+
+"""with  open("yash.txt","r+") as file :
+    file.write("my name is jay.\n")
+    file.write("dream is study in harward university.\n")
+    file.seek(0)  # ==> cursor at the start of the file
+
+    context =  file.read()
+    print(context)
+    file.close()
+"""
+
+"""
+with  open("ayaan.txt","w+") as file : 
+    file.write("my name is jainam.\n")
+    file.write("dream is study in AU.\n")
+    file.write("live in ahmedabad.\n")
+    file.seek(0) 
+    context =file .read()
+    print(context)
+    file.close()
+"""
+
+"""with  open("ayaan.txt","w+") as file : 
+    file.write("my name is yash.\n")
+    file.write("dream is study in AU.\n")
+    file.write("food lover.\n")
+    file.seek(0) 
+    context =file .read()
+    print(context)
+    file.close()
+"""
+# ram isme is yash  parikh. file .write("ram is")

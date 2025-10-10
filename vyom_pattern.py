@@ -120,10 +120,119 @@ for i in range(1,6):  # 2
 
 """
 
-for i in range(1,5):  # 2  
+"""for i in range(1,5):  # 2  
     for j in range(1,i+1):
         if i % 2==0:  
             print("#",end=" ")
         else :
             print("*",end=" ")   
     print()                  
+"""
+"""
+*                 *
+* *             * *
+* * *         * * *
+* * * *     * * * *
+* * * * * * * * * *
+* * * *     * * * *
+* * *         * * *
+* *             * *
+*                 *
+"""
+# 10 :
+"""
+for i in range(1,5):  # 2  
+    for j in range(1,i+1):
+        if i % 2==0:  
+            print("#",end=" ")
+        else :
+            print("*",end=" ")   
+    print()
+* * *
+* * 
+* 
+"""
+
+"""for i in range(1,5):
+    for  j in range(1,i+1):
+        print("*",end=" ")
+    print()
+for i in range(1,6):
+    for  j in range(5,i-1,-1):
+        print("*",end=" ")
+    print()
+for i in range(1,5):
+    for  k in range(5,i,-1):
+        print(" ",end=" ")
+    for  j in range(1,i+1):
+        print("*",end=" ")
+    print()
+
+for i in range(1,6):
+    for  k in range(1,i):
+        print(" ",end=" ")
+    for  j in range(5,i-1,-1):
+        print("*",end=" ")
+    print()
+"""
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print("*", end=" ")
+#     for space in range(1, (6 - i) * 2):
+#         print(" ", end=" ")
+#     for j in range(1,i+1):
+#         print("*", end=" ")
+#     print()
+
+# for i in range(4,0,-1):
+#     for j in range(1,i+1):
+#         print("*", end=" ")
+#     for space in range(1, (6 - i) * 2):
+#         print(" ", end=" ")
+#     for j in range(1,i+1):
+#         print("*", end=" ")
+#     print()
+
+
+# Total number of rows
+"""rows = 5
+
+for i in range(1, rows + 1):
+    for j in range(i):
+        print("*", end=" ")
+    # Middle spaces
+    spaces = 2 * (rows - i)
+    for s in range(spaces):
+        print(" ", end=" ")
+    for j in range(i):
+        print("*", end=" ")
+    print()  # Move to next line
+
+# Bottom half
+for i in range(rows - 1, 0, -1):
+    for j in range(i):
+        print("*", end=" ")
+    spaces = 2 * (rows - i)
+    for s in range(spaces):
+        print(" ", end=" ")
+    for j in range(i):
+        print("*", end=" ")
+    print()  # Move to next line"""
+# rev number  : 
+
+"""
+123 : 321 
+
+456   : 654 
+1234 : 4231 
+"""
+
+# n =int(input("Enter the number : "))
+
+# convert = str(n)
+
+# r =convert[-1] + convert[:-1]
+
+# rev =int(r)
+# print(rev)
+

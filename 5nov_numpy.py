@@ -1,5 +1,6 @@
 #numpy  : use  ==> array  manupulation  + matrix  , list ==> faster  
-import numpy as np 
+import numpy as np
+import matplotlib.pyplot as plt
 
 """l1 =[1,2,3,4,5,6,7,"arpit",9j] 
 print(l1) 
@@ -33,7 +34,7 @@ print(c)
 """
 # 2d array : 
 
-a= np.array([[1,2,3],[4,5,6],[7,8,9]])
+# a= np.array([[1,2,3],[4,5,6],[7,8,9]])
 # print(a)
 """
 [[1 2 3]    ==> 1 2 3 ==> 1 row  ==> index 0 
@@ -68,3 +69,30 @@ print(d)
 ouput  : [[24,25],
           [29,30]]
 """
+"""b=np.ones((5,3),dtype=int)
+print(b)
+"""
+"""
+1 1 1 1 1 
+1 0 0 0 1
+1 0 9 0 1
+1 0 0 0 1
+1 1 1 1 1 
+"""
+# mon fri ==> 5-6  
+
+virat =plt.imread("picture.png")
+print(virat)
+
+plt.imshow(virat)
+
+# plt.imsave("newpic.png",virat)
+
+# virat_inverted=virat[::-1,:,:]
+# mirror =virat[:,::-1,:]
+sample =virat[:,:,::-1]
+
+# plt.imshow(virat_inverted)
+# plt.imshow(mirror)
+plt.imshow(sample)
+print(plt.show())

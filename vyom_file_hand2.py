@@ -52,7 +52,7 @@ with  open("vyom16aug.txt","a+") as f :
 
 """
 # a+ : exiting file  open ==> last add
-with  open("vyom.txt","a+") as f : 
+"""with  open("vyom.txt","a+") as f : 
     # f.write("vyom parthiv gandhi \n")
     # f.write("my best friend name is rishi shah.\n")
     # f.write("father name is parthiv bhai.\n")
@@ -60,4 +60,6 @@ with  open("vyom.txt","a+") as f :
     context =f.read()
     print(context)
     f.close()
+
+"""
 

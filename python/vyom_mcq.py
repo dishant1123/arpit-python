@@ -150,7 +150,7 @@ m.input()
 m.display()
 """
 
-class employee :
+"""class employee :
     def __init__(self,name,salary):
         self.name =name
         self.salary =salary
@@ -170,3 +170,30 @@ class manager(employee):
         print("Manager name : ",self.m_name)
 m=manager("arpit",10000,"dr.vyom")
 m.display()
+"""
+
+# pip install matplotlib.pyplot 
+"""
+plt.figure()
+plt.title() 
+plt.xlabel() 
+plt.ylabel()
+plt. plot() ==> line graph 
+plt.bar() ==> bar graph
+plt.hist() ==> histogram
+plt.scatter() ==> scatter plot
+plt.pie() ==> pie chart
+plt.boxplot() ==> box plot
+
+"""
+import matplotlib.pyplot as plt
+
+x=[1,2,3,4,5,6,7]
+y=[2,6,5,15,17,19,9]
+
+plt.plot(x,y,marker='d',color='red')
+# plt.bar(x,y)
+plt.title("BAR Graph")
+plt.xlabel("x-values")
+plt.ylabel("y-values")
+plt.show()

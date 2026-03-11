@@ -67,7 +67,7 @@ class a
 class b : public a 
 class c: public b
 */
-
+/*
 #include <iostream>
 using namespace std;
 class employees 
@@ -123,3 +123,5 @@ int main()
     cout<<"department : "<<m.department<<"\n";
     return 0;
 }
+
+*/ 
